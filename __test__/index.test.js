@@ -6,7 +6,7 @@ const code = transformFileSync( path.resolve( __dirname, 'fixtures/index.js' ), 
 	presets: [ [
 		'es2015',
 	] ],
-	plugins: [ plugin ],
+	plugins: [ [ plugin, { libraryName: 'kmui' } ] ],
 } ).code;
 
 console.log( code );
