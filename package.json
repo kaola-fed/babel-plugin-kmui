@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-kmui",
   "description": "babel-plugin-kmui",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "node __test__/index.test.js"
