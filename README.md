@@ -1,5 +1,7 @@
 # babel-plugin-kmui
 
+[![build status][build-status-image]][build-status-url]
+
 import KMUI component on-demand
 
 ## Usage
@@ -22,4 +24,5 @@ Default: `kmui`
 
 MIT
 
-
+[build-status-image]: https://img.shields.io/circleci/project/fengzilong/pure/master.svg?style=flat-square
+[build-status-url]: https://img.shields.io/travis/kaola-fed/babel-plugin-kmui.svg?style=flat-square
