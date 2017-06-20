@@ -4,7 +4,7 @@ import KMUI component on-demand
 
 ## Usage
 
-```json
+```js
 // .babelrc
 {
   "plugin": ["kmui"]
