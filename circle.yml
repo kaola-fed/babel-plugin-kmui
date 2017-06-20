@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 7
+
+dependencies:
+  cache_directories:
+    - ~/.yarn-cache
+  override:
+    - yarn
+
+test:
+  post:
+    - bash <(curl -s https://codecov.io/bash)
